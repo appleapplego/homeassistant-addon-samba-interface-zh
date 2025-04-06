@@ -1,5 +1,7 @@
 ---
 build_from:
-  aarch64: docker.1ms.run/hassio-addons/base/aarch64:17.2.1
-  amd64: docker.1ms.run/hassio-addons/base/amd64:17.2.1
-  armv7: docker.1ms.run/hassio-addons/base/armv7:17.2.1
+  aarch64: dockerproxy.net/home-assistant/aarch64-base:3.19
+  amd64: dockerproxy.net/home-assistant/amd64-base:3.19
+  armhf: dockerproxy.net/home-assistant/armhf-base:3.19
+  armv7: dockerproxy.net/home-assistant/armv7-base:3.19
+  i386: dockerproxy.net/home-assistant/i386-base:3.19
